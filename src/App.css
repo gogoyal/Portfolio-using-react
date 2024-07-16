@@ -1,0 +1,80 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.imgMaxHeight{
+  height: 100%;
+  max-height: 280px;
+}
+.logo{
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+.hello{
+  background: radial-gradient(circle, rgb(18, 26, 175), rgb(203, 36, 147));
+  background-clip: text;
+  color: transparent;
+}
+.experience{
+
+    background: linear-gradient(to top, rgb(205, 202, 202), rgb(162, 10, 140));
+    background-clip: text;
+    color: transparent;
+}
+.Experience{
+
+  background: linear-gradient(to top, rgb(42, 42, 42), rgb(239, 237, 239));
+  background-clip: text;
+  color: transparent;
+}
+.skill{
+
+  background: linear-gradient(to top, rgb(5, 42, 152), rgb(157, 152, 250));
+  background-clip: text;
+  color: transparent;
+}
+.projects{
+
+  background: linear-gradient(to top, rgb(30, 152, 5), rgb(157, 152, 250));
+  background-clip: text;
+  color: transparent;
+}
+
+
+
