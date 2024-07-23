@@ -1,26 +1,25 @@
 import "./App.css";
 import "bootstrap";
+import Weather from "./weather"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from "./navbar";
-// import Home from "./home"
-import Landing from "./landing";
+
 
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Landing />
+    <Weather/>
       <BrowserRouter>
         <Routes>
           {/* <Route path="/home" element={<Home/>}></Route> */}
-          <Route path="/landing" element={<Landing />}></Route>
-
-        </Routes>
+         
+               </Routes>
       </BrowserRouter>
 
-    
     </>
+    
+    
+    
   );
 }
 

@@ -37,7 +37,7 @@
   }
 } */
 
-.imgMaxHeight{
+/* .imgMaxHeight{
   height: 100%;
   max-height: 280px;
 }
@@ -74,6 +74,9 @@
   background: linear-gradient(to top, rgb(30, 152, 5), rgb(157, 152, 250));
   background-clip: text;
   color: transparent;
+} */
+.cardbody{
+  background-image: linear-gradient(rgb(61, 67, 233), rgb(23, 205, 196));
 }
 
 
